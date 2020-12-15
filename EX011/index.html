@@ -15,5 +15,14 @@
         <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
         <img src="imagens/foto-g.png" alt="Foto Grande">
     </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML</p>
+    
+    <audio preload="metadata" controls><!--Preload metadata, carrega o audio apenas quando for reproduzir-->
+        <source src="midia/song.mp3" type="audio/mpeg"><!--MP3 WAV OGG-->
+        <source src="midia/song.ogg" type="audio/ogg">
+        <source src="midia/song.wav" type="audio/wav">
+        <p>Seu navegador não suporta reprodução de audio, <a href="midia/song.mp3">clique aqui para baixar..</a>.</p>
+    </audio>
 </body>
 </html>
